@@ -1,0 +1,119 @@
+@media (max-width: 60em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .how-options {
+    flex-direction: row;
+    gap: 3.2rem;
+  }
+
+  .heading-2 {
+    font-size: 3.2rem;
+  }
+
+  .how-description {
+    margin: 2.4rem 0;
+  }
+
+  .options1 {
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+
+  .option1-comp {
+    padding-bottom: 3.2rem;
+    text-align: left;
+  }
+
+  .img-png {
+    width: 15%;
+  }
+}
+
+@media (max-width: 47em) {
+  .header-primary {
+    font-size: 4.8rem;
+  }
+
+  .app {
+    margin-right: -5rem;
+    margin-left: -5rem;
+  }
+
+  .properties-des2 {
+    padding-top: 2.4rem;
+  }
+
+  .section-how {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    padding-top: 0;
+  }
+
+  .testimonial {
+    padding: 2.4rem 2.4rem;
+  }
+
+  .logos img {
+    height: 2.2rem;
+  }
+
+  .grid-footer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .social-col {
+    display: none;
+  }
+
+  .footer-heading {
+    text-align: center;
+  }
+
+  .email-form {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 39em) {
+  .header-primary {
+    font-size: 3.6rem;
+  }
+
+  .app-icon {
+    width: 10rem;
+  }
+
+  .app {
+    margin-right: -8rem;
+    margin-left: -8rem;
+  }
+
+  .app-properties {
+    display: flex;
+    flex-direction: column;
+    margin-top: 18rem;
+    margin-bottom: 2.4rem;
+  }
+
+  .testimonials {
+    padding: 3.2rem 4.8rem;
+  }
+
+  .testimonial {
+    padding: 1.2rem;
+  }
+
+  .head2 {
+    font-size: 2.4rem;
+  }
+
+  .logos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    row-gap: 3.2rem;
+  }
+}
